@@ -5,7 +5,7 @@ public class Positivenegative {
 
         Scanner sc = new Scanner(System.in);
 
-         System.out.println("Enter your number:");
+         System.out.println("Enter your 3number:");
          int a = sc.nextInt();
 
          if(a >= 0){
