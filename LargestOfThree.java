@@ -26,6 +26,8 @@ else{
     System.out.print("Largest number is: " +c);
 }
 
+sc.close();
+
     }
     
 }

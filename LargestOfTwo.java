@@ -20,7 +20,7 @@ else if(b > a){
 else{
     System.out.print("Both are equal");
 }
-
+sc.close();
     }
     
 }
