@@ -20,6 +20,7 @@ public class count {
 
         System.out.println("Count is: " +a);
 
-
+    sc.close();
     }
+    
 }

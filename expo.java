@@ -1,24 +1,20 @@
 import java.util.Scanner;
 
-public class expo {
-public static void main(String[] args) {
-    //inputing values
-    Scanner sc = new Scanner(System.in);
-    
-    System.out.println("Enter value: ");
-    int base = sc.nextInt();
+public class expo{
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
 
-    System.out.println("Enter expo: ");
-    int expo = sc.nextInt();
+      System.out.print("Enter base value: ");
+      int base = sc.nextInt();
 
-    //Creating new updating variable
-    int n = 1;
+       System.out.print("Enter Exponent: ");
+      int expo = sc.nextInt();
 
-    //creating loop for exponent(iteration)
-    for(int i = 1; i <= expo; i++){
-        n = n * base;
+      int Ans = 1;
+
+      for(int i = 1; i <= expo; i++){
+        Ans = Ans * base;
+      }
+      System.out.println("Answer:" +Ans);
     }
-    System.out.println("Answer: " + n);
-}
-    
 }
